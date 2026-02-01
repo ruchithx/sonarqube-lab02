@@ -12,6 +12,7 @@ public class App {
         int result = calc.calculate(10, 5, "add-again");
 
         if (logger.isLoggable(Level.INFO)) {
+            //adding a comment
             logger.info(String.valueOf(result));
         }
 
